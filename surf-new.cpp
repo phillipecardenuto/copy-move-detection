@@ -1,5 +1,6 @@
 //#include <cv.h>
 //#include <compat.hpp>
+#include <opencv2/legacy/compat.hpp>
 #include <highgui.h>
 #include <ctype.h>
 #include <stdio.h>

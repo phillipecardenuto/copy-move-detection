@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <highgui.h>
-#include <cv.h>
+#include <opencv2/opencv.hpp>
 #include "our-method.cpp"
 
 int main(int argc, char** argv){

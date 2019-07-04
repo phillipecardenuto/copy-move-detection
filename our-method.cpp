@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include "math.h"
 #include "highgui.h"
-#include <cv.h>
 //#include "surf.h"
 #include "cvutil.h"
 #include "our-method.h"

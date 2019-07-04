@@ -1,6 +1,7 @@
 CFLAGS+=-O3
 OPENCV_INCLUDE=-I/usr/include/opencv -I/usr/local/include
-OPENCV_LIBS=-L/usr/lib -lopencv_core -lopencv_imgproc -lopencv_highgui -lopencv_flann -lopencv_calib3d
+OPENCV_LIBS=-L/usr/lib -lopencv_core -lopencv_imgproc -lopencv_highgui -lopencv_flann -lopencv_calib3d -lopencv_legacy
+CC=g++
 
 # OpenCV2 library is required
 CFLAGS+=$(OPENCV_INCLUDE)
