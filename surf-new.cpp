@@ -7,13 +7,14 @@
 #include <stdlib.h>
 #include <iostream>
 #include "surf-new.h"
-//#include "nonfree/features2d.hpp"
+#include <opencv2/nonfree/features2d.hpp> 
+#include <opencv2/nonfree/nonfree.hpp> 
+//#include <nonfree/features2d.hpp>
 //#include "nonfree/nonfree.hpp"
 
 using namespace std;
 //using namespace cv;
-
-//cv::initModule_nonfree();
+static bool makeUseOfNonfree = cv::initModule_nonfree();
 
 static CvScalar colors[] = { { { 0, 0, 255 } }, { { 0, 128, 255 } }, { { 0,
 			255, 255 } }, { { 0, 255, 0 } }, { { 255, 128, 0 } }, { { 255, 255,
